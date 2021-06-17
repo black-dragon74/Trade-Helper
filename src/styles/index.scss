@@ -1,0 +1,72 @@
+html,
+body {
+  height: 100%;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+body {
+}
+
+input {
+  padding: 0.5rem;
+  font-size: 1rem;
+}
+
+label {
+  display: block;
+}
+
+.container {
+  max-width: 1000px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  padding-top: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.info {
+  grid-column: 1/-1;
+
+  h3 {
+    text-align: center;
+  }
+
+  .msg-container {
+    display: flex;
+    flex-direction: column;
+
+    p {
+      display: block;
+      font-size: 1.5rem;
+    }
+  }
+}
+
+.form-group {
+  display: flex;
+}
+
+.red {
+  color: red;
+}
+
+.green {
+  color: green;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.underline {
+  text-decoration: underline;
+}
