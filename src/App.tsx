@@ -111,7 +111,8 @@ const App = () => {
             <p>Lot size is: {lotSize}</p>
             <p>Current price of the stock is: {price} rs.</p>
             <p>
-              You are buying {shares} shares worth {result?.totalPrice} rs.
+              You are buying {result?.shares} shares worth {result?.totalPrice}{" "}
+              rs.
             </p>
             <br />
             <p className="green">
